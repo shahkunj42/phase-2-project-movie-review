@@ -4,6 +4,8 @@ import MovieContainer from './MovieContainer';
 import { useState, useEffect } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import MovieDetails from './MovieDetails';
+import Header from './Header';
+import Home from './Home';
 
 function App() {
   const [movies, setMovies] = useState([])
@@ -18,19 +20,25 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
 
       <Switch>
 
-        <Route path='/:id'>
+        <Route path='/movies/:id'>
           <MovieDetails />
         </Route>
 
-        <Route path='/'>
+        <Route path='/movies'>
           <SearchBar search={search} setSearch={setSearch}/>
           <MovieContainer search={search} movies={movies}/>
         </Route>
 
+        <Route path='/'>
+          <Home />
+        </Route>
+        
      </Switch>
+
     </div>
   );
 }

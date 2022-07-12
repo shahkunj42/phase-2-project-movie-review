@@ -5,7 +5,7 @@ function Movie({movie}) {
     
   return (
     <div className="card">
-      <NavLink exact to={`/${movie.id}`} >
+      <NavLink exact to={`/movies/${movie.id}`} >
         <img className="pic"
           src={movie.image}
           alt={movie.title}         
