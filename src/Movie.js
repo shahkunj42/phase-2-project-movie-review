@@ -1,18 +1,18 @@
-function Movie({title,image,summary,stars}) {
-    
+
+function Movie({movie}) {
     
     return (
     
     <div className="card">
       <img className="pic"
-        src={image}
-        alt={title}         
+        src={movie.image}
+        alt={movie.title}         
       />
       <div >
-        <div >{title}</div>
-        <p >{summary}</p>
+        <div >{movie.title}</div>
+        <p >{movie.summary}</p>
         <div >          
-          <p>{stars}</p>
+          <p>{movie.stars}</p>
         </div>
       </div>
     </div>)
