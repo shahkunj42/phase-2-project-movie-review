@@ -15,21 +15,24 @@
             "image": "https://m.media-amazon.com/images/M/MV5BYzg0NGM2NjAtNmIxOC00MDJmLTg5ZmYtYzM0MTE4NWE2NzlhXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_UX140_CR0,0,140,209_AL_.jpg",
             "summary": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time."
             
-        },{
+        },
+        {
             "id": 3,            
             "title": "Avengers: Endgame ",
             "stars": "10",
             "image": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UY209_CR0,0,140,209_AL_.jpg",
             "summary": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
             
-        },{
+        },
+        {
             "id": 4,            
             "title": "Avengers: Infinity War ",
             "stars": "9",
             "image": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UY209_CR0,0,140,209_AL_.jpg",
             "summary": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
             
-        },{
+        },
+        {
             "id": 5,            
             "title": "Coco ",
             "stars": "6",
@@ -43,42 +46,48 @@
             "image": "https://m.media-amazon.com/images/M/MV5BODRmZDVmNzUtZDA4ZC00NjhkLWI2M2UtN2M0ZDIzNDcxYThjL2ltYWdlXkEyXkFqcGdeQXVyNTk0MzMzODA@._V1_UY209_CR0,0,140,209_AL_.jpg",
             "summary": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?"
             
-        },{
+        },
+        {
             "id": 7,            
             "title": "Mad Max: Fury Road ",
             "stars": "8",
             "image": "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY209_CR0,0,140,209_AL_.jpg",
             "summary": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max."
             
-        },{
+        },
+        {
             "id": 8,            
             "title": "Interstellar ",
             "stars": "8",
             "image": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY209_CR0,0,140,209_AL_.jpg",
             "summary": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
             
-        },{
+        },
+        {
             "id": 9,            
             "title": "12 Years a Slave ",
             "stars": "7",
             "image": "https://m.media-amazon.com/images/M/MV5BMjExMTEzODkyN15BMl5BanBnXkFtZTcwNTU4NTc4OQ@@._V1_UY209_CR0,0,140,209_AL_.jpg",
             "summary": "In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery."
             
-        },{
+        },
+        {
             "id": 10,            
             "title": "Django Unchained",
             "stars": "8",
             "image": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_UY209_CR0,0,140,209_AL_.jpg",
             "summary": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation-owner in Mississippi."
             
-        },{
+        },
+        {
             "id": 11,            
             "title": "The Help ",
             "stars": "7",
             "image": "https://m.media-amazon.com/images/M/MV5BMTM5OTMyMjIxOV5BMl5BanBnXkFtZTcwNzU4MjIwNQ@@._V1_UY209_CR0,0,140,209_AL_.jpg",
             "summary": "An aspiring author during the civil rights movement of the 1960s decides to write a book detailing the African American maids' point of view on the white families for which they work, and the hardships they go through on a daily basis."
             
-        },{
+        },
+        {
             "id": 12,            
             "title": "Inception ",
             "stars": "7",
@@ -92,21 +101,24 @@
             "image": "https://m.media-amazon.com/images/M/MV5BNzE4NDg5OWMtMzg3NC00ZDRjLTllMDMtZTRjNWZmNjBmMGZlXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY209_CR3,0,140,209_AL_.jpg",
             "summary": "A college professor bonds with an abandoned dog he takes into his home."
             
-        },{
+        },
+        {
             "id": 14,            
             "title": "WALL·E ",
             "stars": "7",
             "image": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_UY209_CR0,0,140,209_AL_.jpg",
             "summary": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind."
             
-        },{
+        },
+        {
             "id": 15,            
             "title": "No Country for Old Men ",
             "stars": "4",
             "image": "https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_UY209_CR1,0,140,209_AL_.jpg",
             "summary": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande."
             
-        },{
+        },
+        {
             "id": 16,            
             "title": "Pan's Labyrinth",
             "stars": "2",
@@ -120,28 +132,32 @@
             "image": "https://m.media-amazon.com/images/M/MV5BNjAzMzEwYzctNjc1MC00Nzg5LWFmMGItMTgzYmMyNTY2OTQ4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY209_CR2,0,140,209_AL_.jpg",
             "summary": "The family of a left-wing journalist is torn apart after the military coup of Turkey in 1980."
             
-        },{
+        },
+        {
             "id": 18,            
             "title": " The Notebook ",
             "stars": "5",
             "image": "https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_UY209_CR0,0,140,209_AL_.jpg",
             "summary": "A poor yet passionate young man (Ryan Gosling) falls in love with a rich young woman (Rachel McAdams), giving her a sense of freedom, but they are soon separated because of their social differences."
             
-        },{
+        },
+        {
             "id": 19,            
             "title": "The Lord of the Rings: The Return of the King",
             "stars": "10",
             "image": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY209_CR0,0,140,209_AL_.jpg",
             "summary": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
             
-        },{
+        },
+        {
             "id": 20,            
             "title": "The Lord of the Rings: The Two Towers ",
             "stars": "9",
             "image": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX140_CR0,0,140,209_AL_.jpg",
             "summary": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
             
-        },{
+        },
+        {
             "id": 21,            
             "title": "The Lord of the Rings: The Fellowship of the Ring ",
             "stars": "9",
@@ -155,49 +171,56 @@
             "image": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY209_CR0,0,140,209_AL_.jpg",
             "summary": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery."
             
-        },{
+        },
+        {
             "id": 23,            
             "title": "The Matrix ",
             "stars": "6",
             "image": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX140_CR0,0,140,209_AL_.jpg",
             "summary": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence."
             
-        },{
+        },
+        {
             "id": 24,            
             "title": "The Truman Show ",
             "stars": "8",
             "image": "https://m.media-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UY209_CR0,0,140,209_AL_.jpg",
             "summary": "An insurance salesman discovers his whole life is actually a reality TV show."
             
-        },{
+        },
+        {
             "id": 25,            
             "title": "Titanic ",
             "stars": "10",
             "image": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY209_CR0,0,140,209_AL_.jpg",
             "summary": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
             
-        },{
+        },
+        {
             "id": 26,            
             "title": "The Bandit ",
             "stars": "9",
             "image": "https://m.media-amazon.com/images/M/MV5BOGQ4ZjFmYjktOGNkNS00OWYyLWIyZjgtMGJjM2U1ZTA0ZTlhXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY209_CR4,0,140,209_AL_.jpg",
             "summary": "Baran the Bandit, released from prison after 35 years, searches for vengeance and his lover."
             
-        },{
+        },
+        {
             "id": 27,            
             "title": "Braveheart (",
             "stars": "5",
             "image": "https://m.media-amazon.com/images/M/MV5BMzkzMmU0YTYtOWM3My00YzBmLWI0YzctOGYyNTkwMWE5MTJkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY209_CR1,0,140,209_AL_.jpg",
             "summary": "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England."
             
-        },{
+        },
+        {
             "id": 28,            
             "title": "Forrest Gump ",
             "stars": "7",
             "image": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY209_CR2,0,140,209_AL_.jpg",
             "summary": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart."
             
-        },{
+        },
+        {
             "id": 29,            
             "title": "Schindler's List ",
             "stars": "6",
@@ -211,21 +234,24 @@
             "image": "https://m.media-amazon.com/images/M/MV5BODM3YWY4NmQtN2Y3Ni00OTg0LWFhZGQtZWE3ZWY4MTJlOWU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX140_CR0,0,140,209_AL_.jpg",
             "summary": "Retired Old West gunslinger William Munny reluctantly takes on one last job, with the help of his old partner Ned Logan and a young man, The Schofield Kid."
             
-        },{
+        },
+        {
             "id": 31,            
             "title": "Terminator 2: Judgment Day ",
             "stars": "9",
             "image": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY209_CR0,0,140,209_AL_.jpg",
             "summary": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her ten-year-old son John from a more advanced and powerful cyborg."
             
-        },{
+        },
+        {
             "id": 32,            
             "title": "The Godfather: Part III ",
             "stars": "8",
             "image": "https://m.media-amazon.com/images/M/MV5BNWFlYWY2YjYtNjdhNi00MzVlLTg2MTMtMWExNzg4NmM5NmEzXkEyXkFqcGdeQXVyMDk5Mzc5MQ@@._V1_UY209_CR0,0,140,209_AL_.jpg",
             "summary": "Follows Michael Corleone, now in his 60s, as he seeks to free his family from crime and find a suitable successor to his empire."
             
-        },{
+        },
+        {
             "id": 33,            
             "title": "Dead Poets Society ",
             "stars": "10",
