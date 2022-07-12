@@ -11,14 +11,7 @@ function Movie({movie}) {
           alt={movie.title}         
         />
       </NavLink>
-      <div >
-        <div >{movie.title}</div>
-        <p >{movie.summary}</p>
-        <div >          
-          <p>{movie.stars}</p>
-        </div>
       </div>
-    </div>
   )
   }
   

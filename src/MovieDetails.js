@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 
 const MovieDetails = () => {
   const [movie, setMovie] = useState(null);
-
   const {id} = useParams()
 
   useEffect(() => {
@@ -13,7 +12,6 @@ const MovieDetails = () => {
         setMovie(movie);
       });
   }, [id]);
-
 
   if(!movie) return <h1>Loading</h1>
 

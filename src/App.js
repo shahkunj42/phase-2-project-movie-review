@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import SearchBar from "./SearchBar";
 import MovieContainer from './MovieContainer';
@@ -21,7 +20,6 @@ function App() {
     <div className="App">
 
       <Switch>
-
 
         <Route path='/:id'>
           <MovieDetails />

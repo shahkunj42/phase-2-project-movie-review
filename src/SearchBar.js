@@ -6,7 +6,6 @@ function SearchBar({setSearch}) {
           type="text"
           className="searchTerm"
           onChange={(event) =>setSearch(event.target.value)}
-          
         />
       </div>
     );
