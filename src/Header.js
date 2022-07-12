@@ -7,7 +7,7 @@ return(
         <h1>Movie Reviews!</h1>
     </Link>
     <div className="navigation">
-        <span>
+        <span className="links">
           <NavLink className="button" exact to="/movies">
             All Movies
           </NavLink>
@@ -15,10 +15,7 @@ return(
           <NavLink className="button" exact to="/review">
             Review Movie
           </NavLink>
-    
-          <NavLink className='button' exact to ='/movies/favorite'>
-            Favorites
-          </NavLink>
+
         </span>
         </div>
  </nav>
