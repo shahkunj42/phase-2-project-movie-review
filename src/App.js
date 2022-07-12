@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <SearchBar setSearch={setSearch}/>
+      <SearchBar search={search} setSearch={setSearch}/>
       <MovieContainer search={search} movies={movies}/>
      
     </div>
