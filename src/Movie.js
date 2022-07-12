@@ -1,13 +1,16 @@
 
+import { NavLink } from "react-router-dom";
+
 function Movie({movie}) {
     
-    return (
-    
+  return (
     <div className="card">
-      <img className="pic"
-        src={movie.image}
-        alt={movie.title}         
-      />
+      <NavLink exact to={`/${movie.id}`} >
+        <img className="pic"
+          src={movie.image}
+          alt={movie.title}         
+        />
+      </NavLink>
       <div >
         <div >{movie.title}</div>
         <p >{movie.summary}</p>
@@ -15,7 +18,8 @@ function Movie({movie}) {
           <p>{movie.stars}</p>
         </div>
       </div>
-    </div>)
+    </div>
+  )
   }
   
   export default Movie;

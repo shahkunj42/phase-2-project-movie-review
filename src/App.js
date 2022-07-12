@@ -3,6 +3,8 @@ import './App.css';
 import SearchBar from "./SearchBar";
 import MovieContainer from './MovieContainer';
 import { useState, useEffect } from 'react';
+import { Switch, Route } from 'react-router-dom';
+import MovieDetails from './MovieDetails';
 
 function App() {
   const [movies, setMovies] = useState([])
@@ -17,9 +19,20 @@ function App() {
 
   return (
     <div className="App">
-      <SearchBar search={search} setSearch={setSearch}/>
-      <MovieContainer search={search} movies={movies}/>
-     
+
+      <Switch>
+
+
+        <Route path='/:id'>
+          <MovieDetails />
+        </Route>
+
+        <Route path='/'>
+          <SearchBar search={search} setSearch={setSearch}/>
+          <MovieContainer search={search} movies={movies}/>
+        </Route>
+
+     </Switch>
     </div>
   );
 }
