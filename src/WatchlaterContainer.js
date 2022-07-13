@@ -2,14 +2,13 @@ import React from "react";
 import MovieForList from "./MovieForList";
 import Movie from "./Movie"
 
-function WatchlaterContainer({ watchlist, clickHandler}) {
-  const renderList = watchlist.map((movie) => (
-    <Movie clickHandler={clickHandler} movie={movie} />
-  ));
+function WatchlaterContainer({ watchlist, clickHandler , watchButton, setWatchButton}) {
+  const renderlist = watchlist.map(movie => <Movie key={movie.id} movie={movie} clickHandler={clickHandler} setWatchButton={setWatchButton} watchButton={watchButton}/>)
   return (
-    <div>
-      <h2>Watch Later List:</h2>
-      {renderList}
+    <div className="movieContainer">
+      <h2 className="header">Watch Later List:</h2>
+      <br></br>
+      {renderlist}
     </div>
   );
 }

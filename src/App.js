@@ -13,6 +13,7 @@ function App() {
   const [movies, setMovies] = useState([])
   const [search,setSearch]=useState("")
   const [watchlist,setWatchList]=useState([])
+  
 
   useEffect((() => {
     fetch('http://localhost:3001/movies')
@@ -24,27 +25,18 @@ function App() {
     setMovies(movies => [...movies, newMovie])
   }
 
-  // function addmovie(movie) {
-  //   console.log(movie.name);
-  //   setWatchList((prevState) => {
-  //     const inList = prevState.includes(movie);
-  //     if (inList) {
-  //       return prevState;
-  //     } else {
-  //       return [...prevState, movie];
-  //     }
-  //   });
-  // }
-
-  function addmovie(movieToAdd) {
-    const movieIn = movies.find(
-      (movie) =>movie.id === movieToAdd.id
-    );
-    if (!movieIn) {
-      setWatchList([...watchlist, movieToAdd]);
-    }}
-
-
+  function addmovie(movie) {
+    console.log(movie.title);
+    // console.log(watchlist)
+    setWatchList((prevState) => {
+      const inList = prevState.includes(movie);
+      if (inList) {
+        return prevState;
+      } else {
+        return [...prevState, movie];
+      }
+    });
+  }
 
   return (
     <div className="App">
@@ -57,6 +49,7 @@ function App() {
         </Route>
 
         <Route path='/movies'>
+          <br></br>
           <SearchBar search={search} setSearch={setSearch}/>
           <WatchlaterContainer watchlist={watchlist} clickHandler={addmovie} />
           <MovieContainer search={search} movies={movies} clickHandler={addmovie}/>
