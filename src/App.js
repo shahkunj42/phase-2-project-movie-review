@@ -7,10 +7,12 @@ import MovieDetails from './MovieDetails';
 import Header from './Header';
 import Home from './Home';
 import MovieReview from './MovieReview';
+import WatchlaterContainer from "./WatchlaterContainer"
 
 function App() {
   const [movies, setMovies] = useState([])
   const [search,setSearch]=useState("")
+  const [watchlist,setWatchList]=useState([])
 
   useEffect((() => {
     fetch('http://localhost:3001/movies')
@@ -21,6 +23,28 @@ function App() {
   function onReviewMovie(newMovie){
     setMovies(movies => [...movies, newMovie])
   }
+
+  // function addmovie(movie) {
+  //   console.log(movie.name);
+  //   setWatchList((prevState) => {
+  //     const inList = prevState.includes(movie);
+  //     if (inList) {
+  //       return prevState;
+  //     } else {
+  //       return [...prevState, movie];
+  //     }
+  //   });
+  // }
+
+  function addmovie(movieToAdd) {
+    const movieIn = movies.find(
+      (movie) =>movie.id === movieToAdd.id
+    );
+    if (!movieIn) {
+      setWatchList([...watchlist, movieToAdd]);
+    }}
+
+
 
   return (
     <div className="App">
@@ -34,7 +58,9 @@ function App() {
 
         <Route path='/movies'>
           <SearchBar search={search} setSearch={setSearch}/>
-          <MovieContainer search={search} movies={movies}/>
+          <WatchlaterContainer watchlist={watchlist} clickHandler={addmovie} />
+          <MovieContainer search={search} movies={movies} clickHandler={addmovie}/>
+          
         </Route>
 
         <Route path='/review'>
